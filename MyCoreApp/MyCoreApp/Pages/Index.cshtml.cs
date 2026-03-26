@@ -43,7 +43,7 @@ namespace MyCoreApp.Pages
 
             if (Weather == null)
             {
-                ErrorMessage = "Nie znaleziono miasta lub wystąpił błąd API.";
+                ErrorMessage = "Nie znaleziono miasta.";
                 return Page();
             }
 
